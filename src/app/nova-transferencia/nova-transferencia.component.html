@@ -1,15 +1,15 @@
 <section class="container">
-  <form class="formulario" (ngSubmit)="transferir()">
+  <form class="formulario" (ngSubmit)="trasnferindoComponentNovaTransferencia()">
     <h2 class="formulario__titulo">Nova Transferência</h2>
 
     <div class="form-field">
       <label class="form-field__label" for="valor">Valor</label>
-      <input class="form-field__input" id="valor" type="text" [(ngModel)]="valor" name="valor" />
+      <input class="form-field__input" id="valor" type="number" [(ngModel)]="valorComponentNovaTransferencia" name="valor" />
     </div>
 
     <div class="form-field">
       <label class="form-field__label" for="destino">Destino</label>
-      <input class="form-field__input" id="valor" type="text" [(ngModel)]="destino" name="destino" />
+      <input class="form-field__input" id="valor" type="text" [(ngModel)]="destinoComponentNovaTransferencia" name="destino" />
     </div>
 
     <div class="botao-wrapper">

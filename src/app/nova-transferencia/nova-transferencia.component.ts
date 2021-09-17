@@ -11,22 +11,22 @@ import { Component, Output, EventEmitter } from "@angular/core";
 
 export class NovaTransferenciaComponent {
 
-  @Output() toTransfer = new EventEmitter<any>();
+  @Output() saidaComponentNovaTransferencia = new EventEmitter<any>();
 
-  valor: number | undefined;
-  destino: number | undefined;
+  valorComponentNovaTransferencia: number | undefined;
+  destinoComponentNovaTransferencia: number | undefined;
 
-  transferir() {
+  trasnferindoComponentNovaTransferencia() {
     console.log('Solicitada nova trasnferência');
 
-    const valueEmit = { valor: this.valor, destino: this.destino };
-    this.toTransfer.emit(valueEmit);
+    const valueEmit = { valor: this.valorComponentNovaTransferencia, destino: this.destinoComponentNovaTransferencia };
+    this.saidaComponentNovaTransferencia.emit(valueEmit);
 
-    this.limparCampos();
+    this.limparCamposNovaTransferencia();
   }
 
-  limparCampos(){
-    this.valor = 0;
-    this.destino = 0;
+  limparCamposNovaTransferencia(){
+    this.valorComponentNovaTransferencia = 0;
+    this.destinoComponentNovaTransferencia = 0;
   }
 }

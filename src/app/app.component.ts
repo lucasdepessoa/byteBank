@@ -6,11 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'byteBank';
-  transferencia: any;
+  titleAppComponent = 'byteBank';
+  transferenciasAppComponent: any[] = [];
 
-  transferirLocal($event: any) {
-    console.log($event);
-    this.transferencia = $event;
+  inputAppModule($event: any) {
+    const trasnferencia = {... $event, data: new Date()}
+    this.transferenciasAppComponent.push(trasnferencia);
+    console.log(this.transferenciasAppComponent);
   }
 }
