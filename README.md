@@ -1,27 +1,32 @@
 # ByteBank
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.2.
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/lucasdepessoa/byteBank/blob/main/LICENSE)
 
+Simple Mock API REST, using json-server to training ANGULAR.
+
+## Technologies Used
+ -Angular
+ 
+  -Json-server
+  
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Web View
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+#### localhost:4200/nova-transferencia
 
-## Build
+ <img src="https://github.com/lucasdepessoa/byteBank/blob/main/src/assets/img/webview1.png">
+ 
+#### localhost:4200/extrato
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+  <img src="https://github.com/lucasdepessoa/byteBank/blob/main/src/assets/img/webview2.png">
 
-## Running unit tests
+## Status
+Finished.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Autor
+Lucas Fernandes Pessoa
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+www.linkedin.com/in/lucasdepessoa
